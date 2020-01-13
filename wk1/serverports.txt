@@ -1,0 +1,14 @@
+1) What is the definition of server port?
+-  A Server Port is a communication endpoint. Physical as well as wireless connections are terminated at ports of hardware devices. A Port Number is always associated with an
+   IP address of host and protocol type of communication.
+
+2) What is server port range?
+-  There are mainly two ranges of ports used for TCP/IP networks: Well-Known and Registered.
+   Well Known Ports: 1 - 1023
+   Registered:       1024 - 65535 
+
+3) How many bits does number above represent?
+-  A Port Number is usually 16-bit unsigned integer.
+
+4) State 10 common server ports
+-  SMTP - 25, HTTP - 80, HTTPS - 443, FTP - 20,21, TELNET - 23, IMAP - 143, RDP - 3389,  SSH - 22, DNS - 53, DHCP - 67,68
