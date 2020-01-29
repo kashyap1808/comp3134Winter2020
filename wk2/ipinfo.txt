@@ -1,19 +1,24 @@
 1. www.world.com
 
 IP Address: 204.74.99.100
+Geolocation: US (United States), CA, California, 94401 San Mateo - Google Maps
 
 2. www.dictionary.com
 
 IP Address: 151.101.66.133
+Geolocation: US (United States), CA, California, 94107 San Francisco - Google Maps
 
 3. www.imdb.com
 
 IP Address: 52.94.228.167
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
 
 4. www.twitter.com
 
 IP Address: 104.244.42.65
+Geolocation: US (United States), CA, California, 94103 San Francisco - Google Maps
 
 5. www.iplt20.com
 
 IP Address: 34.196.12.180
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
