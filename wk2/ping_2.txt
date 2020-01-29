@@ -1,0 +1,56 @@
+ACER@Kashyap MINGW64 ~/Desktop (master)
+$ ssh root@138.197.132.34
+root@138.197.132.34's password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-74-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jan 29 02:10:54 UTC 2020
+
+  System load:  0.0               Processes:           101
+  Usage of /:   8.1% of 24.06GB   Users logged in:     1
+  Memory usage: 34%               IP address for eth0: 138.197.132.34
+  Swap usage:   0%
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+80 packages can be updated.
+11 updates are security updates.
+
+
+********************************************************************************
+
+Welcome to DigitalOcean's One-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP One-Click Quickstart guide: http://do.co/lamp1804#start
+ * Your LAMP website: http://138.197.132.34
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   http://do.co/lamp1804#enable-https for more detail.
+
+For help and more information, visit http://do.co/lamp1804
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Wed Jan 29 02:00:12 2020 from 99.252.183.101
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping www.facebook.com -w 5
+PING star-mini.c10r.facebook.com (31.13.80.36) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=1 ttl=59 time=0.878 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=2 ttl=59 time=0.336 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=3 ttl=59 time=0.318 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=4 ttl=59 time=0.284 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=5 ttl=59 time=0.333 ms
+
+--- star-mini.c10r.facebook.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4064ms
+rtt min/avg/max/mdev = 0.284/0.429/0.878/0.226 ms

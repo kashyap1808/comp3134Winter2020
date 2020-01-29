@@ -1,0 +1,16 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# ping www.indiana.edu -w 10
+PING www.indiana.edu (129.79.78.192) 56(84) bytes of data.
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=1 ttl=54 time=17.7 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=2 ttl=54 time=16.7 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=3 ttl=54 time=16.6 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=4 ttl=54 time=16.6 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=5 ttl=54 time=16.8 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=6 ttl=54 time=16.7 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=7 ttl=54 time=16.8 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=8 ttl=54 time=16.7 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=9 ttl=54 time=16.7 ms
+64 bytes from www.indiana.edu (129.79.78.192): icmp_seq=10 ttl=54 time=16.9 ms
+
+--- www.indiana.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 16.676/16.862/17.722/0.338 ms

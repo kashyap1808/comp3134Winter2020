@@ -1,0 +1,60 @@
+ACER@Kashyap MINGW64 ~/Desktop (master)
+$ ssh root@138.197.132.34
+root@138.197.132.34's password:
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-74-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Wed Jan 29 02:15:33 UTC 2020
+
+  System load:  0.04              Processes:           99
+  Usage of /:   8.1% of 24.06GB   Users logged in:     1
+  Memory usage: 34%               IP address for eth0: 138.197.132.34
+  Swap usage:   0%
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+80 packages can be updated.
+11 updates are security updates.
+
+
+********************************************************************************
+
+Welcome to DigitalOcean's One-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP One-Click Quickstart guide: http://do.co/lamp1804#start
+ * Your LAMP website: http://138.197.132.34
+
+On the server:
+ * The default web root is located at /var/www/html
+ * The MySQL root password is saved in /root/.digitalocean_password
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   http://do.co/lamp1804#enable-https for more detail.
+
+For help and more information, visit http://do.co/lamp1804
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Wed Jan 29 02:14:33 2020 from 99.252.183.101
+root@lamp-s-1vcpu-1gb-tor1-01:~# apt-get install traceroute
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+traceroute is already the newest version (1:2.1.0-2).
+0 upgraded, 0 newly installed, 0 to remove and 76 not upgraded.
+root@lamp-s-1vcpu-1gb-tor1-01:~# traceroute www.google.com
+traceroute to www.google.com (172.217.164.228), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.0 (10.78.4.0)  1.210 ms 10.78.4.6 (10.78.4.6)  12.689 ms 10.78.4.0 (10.78.4.0)  1.152 ms
+ 3  138.197.249.90 (138.197.249.90)  1.106 ms  1.112 ms 138.197.249.86 (138.197.249.86)  1.081 ms
+ 4  162.243.190.33 (162.243.190.33)  1.213 ms 72.14.219.10 (72.14.219.10)  1.130 ms  1.079 ms
+ 5  74.125.244.145 (74.125.244.145)  2.291 ms 74.125.244.161 (74.125.244.161)  1.104 ms 74.125.244.145 (74.125.244.145)  2.251 ms
+ 6  216.239.42.61 (216.239.42.61)  1.156 ms  0.835 ms  0.788 ms
+ 7  yyz12s05-in-f4.1e100.net (172.217.164.228)  1.029 ms  1.089 ms  1.069 ms
