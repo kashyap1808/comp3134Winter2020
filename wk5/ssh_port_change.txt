@@ -1,0 +1,2 @@
+Step 6: root@lamp-s-1vcpu-1gb-tor1-01:/etc/ssh# service sshd restart
+Step 7: ssh 2222@138.197.132.34
