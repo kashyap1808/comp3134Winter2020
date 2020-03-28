@@ -1,0 +1,4 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -A -i eth0
+158990 packets captured
+337128 packets received by filter
+178132 packets dropped by kernel
