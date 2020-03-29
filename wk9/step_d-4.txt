@@ -1,0 +1,4 @@
+1. I can see all the folders on my droplet server, including the web root folder. 
+
+2. Attacker can possibly get access to the content of web root folder content. Also, being able to 
+navigate the server gives excessive information about the files that are stored there.

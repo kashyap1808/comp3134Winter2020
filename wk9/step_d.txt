@@ -1,0 +1,4 @@
+1. The screen is blank(white screen). The query string parameter is set, but the directory with this name does not exist otherwise it would have listed the files in that directory.
+
+2. To start with, the contents of this directory. Some files might have compromising or sensitive information not meant to be shared.
+Also the attacket can inject JavaScript in search bar.

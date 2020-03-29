@@ -1,0 +1,2 @@
+For the header tags, we add 'echo' for the php interpreter to display the text.
+To avoid showing the html comments on the page, we need to convert them to php comments, starting with # instead of <!-- -->

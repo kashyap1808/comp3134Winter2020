@@ -1,0 +1,5 @@
+For viewing the directories above html, I will check for the 'basename' in the query string.
+Doing so will erase the '../' parts of the string, disallowing the user to move up directories.
+
+For attempting to look for non-existent folders, I will check if the directory exists using 'is_dir' and 'file_exists' methods.
+To disallow the lookup of files, I will locate the dot in the query string and search of there's a file extension after that. If so, I'll set the header to 'Forbidden'

@@ -1,0 +1,5 @@
+1. I can see the html folder, which means that the current directory is one level above that. 
+
+2. Most importantly, the folder structure and location of web root folder.
+-  The attacker can inject special characters in the query string, exploiting the access to web root folder contents
+-  Injecting JavaScript can possibly result in exposing information in the root folder files
