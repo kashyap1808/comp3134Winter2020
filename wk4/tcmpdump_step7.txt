@@ -1,0 +1,7 @@
+# tcpdump -r 0001.pcap
+
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+09:59:34.839117 IP 192.168.0.2.ssh > 192.168.0.1.nokia-ann-ch1: Flags [P.], seq 3353041614:3353041746, ack 4193563273, win 18760, length 132
+09:59:34.963022 IP 192.168.0.1.nokia-ann-ch1 > 192.168.0.2.ssh: Flags [.], ack 132, win 65351, length 0
+09:59:36.935309 IP 192.168.0.1.netbios-dgm > 192.168.0.255.netbios-dgm: NBT UDP PACKET(138)
+09:59:37.528731 IP 192.168.0.1.nokia-ann-ch1 > 192.168.0.2.ssh: Flags [P.], seq 1:53, ack 132, win 65351, length 5

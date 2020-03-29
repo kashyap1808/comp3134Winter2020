@@ -1,0 +1,13 @@
+# tcpdump -i eth0 tcp
+
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+12:10:36.216358 IP 192.16.25.126.ssh > 192.16.25.125.apwi-rxspooler: Flags [P.], seq 3509646029:3509646225, ack 3652640142, win 18760, length 196
+12:10:36.216592 IP 192.16.25.125.apwi-rxspooler > 192.16.25.126.ssh: Flags [.], ack 196, win 64687, length 0
+12:10:36.219069 IP 192.16.25.126.ssh > 192.16.25.125.apwi-rxspooler: Flags [P.], seq 196:504, ack 1, win 18760, length 308
+12:10:36.220039 IP 192.16.25.126.ssh > 192.16.25.125.apwi-rxspooler: Flags [P.], seq 504:668, ack 1, win 18760, length 164
+12:10:36.220260 IP 192.16.25.125.apwi-rxspooler > 192.16.25.126.ssh: Flags [.], ack 668, win 64215, length 0
+12:10:36.222045 IP 192.16.25.126.ssh > 192.16.25.125.apwi-rxspooler: Flags [P.], seq 668:944, ack 1, win 18760, length 276
+12:10:36.223036 IP 192.16.25.126.ssh > 192.16.25.125.apwi-rxspooler: Flags [P.], seq 944:1108, ack 1, win 18760, length 164
+12:10:36.223252 IP 192.16.25.125.apwi-rxspooler > 192.16.25.126.ssh: Flags [.], ack 1108, win 65535, length 0
+^C12:10:36.223461 IP mid-pay.midcorp.mid-day.com.netbios-ssn > 192.16.22.183.recipe: Flags [.], seq 283256512:283256513, ack 550465221, win 65531, length 1[|SMB]
