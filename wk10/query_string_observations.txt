@@ -1,0 +1,13 @@
+1. The definition of the word is displayed on the page after it reloads. The query string 
+in the URL changes
+
+2. The page reloads, the user is presented with the message "No results found for [invalid word]".
+The URL portion '/browse' changes to '/misspelling?term=[invalid word]'
+Below, there's a suggestion "Did you mean ...?" with a word with a similar spelling
+
+3. The user is presented with a message "Results for <script>alert('hello')</script>:".
+The engine searched other categories in the website for the results containing <script>alert('hello')</script>
+
+4. The user is presented with a message "Results for <script>alert('hello')</script>:".
+The engine searched other categories in the website for the results containing <script>alert('hello')</script>
+It was the same as typing in the form field.
