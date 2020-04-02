@@ -1,0 +1,3 @@
+The problems are:
+- Possible JavaScript Injection the client is not aware of.
+- The script can be placed so that there's no output, but the source code is changed.It gives way to other attacks such as directory traversal, cookie manipulation which depends on the type of script that exists.

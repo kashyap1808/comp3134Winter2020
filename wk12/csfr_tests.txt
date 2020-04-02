@@ -1,0 +1,8 @@
+-Changing a form action destination can help secure the application, as I can see. However, we need to protect both pages, the one with form 
+and the one that processes it.
+
+-Using session is one of the ways to mitigate attacks, because it requires both pages to access the same value
+and compare. It makes it harder to guess the credentials but it is still possible to hijack the session or
+tamper the values in hidden fields.  
+
+-So, using csfr_form.php is a little better than no validation at all, but it is still susceptible to attacks.
