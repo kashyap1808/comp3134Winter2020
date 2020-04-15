@@ -1,0 +1,5 @@
+1. Nothing was displayed except the column headers.
+
+2. No output as well because the database conditions were not matched.
+
+3. Same output as above because no conditions were satisfied.

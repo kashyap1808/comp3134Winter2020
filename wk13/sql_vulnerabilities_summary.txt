@@ -1,0 +1,6 @@
+1. No items from the database were matched so it returned nothing.
+
+2. User Ben was returned.It was not expected as active is set to 0.
+
+3. No records were displayed, instead a warning was shown with the message
+- "mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given"
